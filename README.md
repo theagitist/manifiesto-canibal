@@ -10,7 +10,7 @@ All four pages are trilingual (Spanish, French, English); the language choice is
 
 - `index.html` : the self-consuming manifesto. An optional sound toggle plays a grungy ambient bed that swells as you scroll toward the void.
 - `presentacion/` : the thesis (Picabia's Dada cannibalism against Oswald de Andrade's anthropophagy) and the discussion questions. This is what an audience sees.
-- `guion/` : the run of show, written as a **reproducible protocol** any facilitator can run, not a personal script. It also offers a printable, localized **discussion handout** (last PDF page, with a header and name/date/course fields) via per-language PDFs and a Print button.
+- `guion/` : the run of show, written as a **reproducible protocol** any facilitator can run, not a personal script. The reading is detailed (the manifesto's chain of equivalences, the litany of *nada*, the self-cannibal turn to the market, and the deliberate contrast with Oswald de Andrade, brought in from outside Picabia's text). Per-language PDFs (two-page script + a closing questions sheet) and a Print button.
 - `compartir/` : a QR page for sharing the piece
 - `poster.svg` : DADÁ / NADA poster used as the link card
 
