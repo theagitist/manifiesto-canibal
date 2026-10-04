@@ -8,7 +8,7 @@ All four pages are trilingual (Spanish, French, English); the language choice is
 
 ## Pages
 
-- `index.html` : the self-consuming manifesto. An optional sound toggle plays a grungy ambient bed that swells as you scroll toward the void.
+- `index.html` : the self-consuming manifesto. Words that pass the jaw are eaten (they crunch, the space closes, the counter reads `eaten -> nada`), and the void ends on a tally of how much it ate versus what it produced (nada). An optional sound toggle plays a grungy ambient bed that swells as you scroll toward the void, plus a synthesized crunch on each bite.
 - `presentacion/` : the thesis (Picabia's Dada cannibalism against Oswald de Andrade's anthropophagy) and the discussion questions. This is what an audience sees.
 - `guion/` : the run of show, written as a **reproducible protocol** any facilitator can run, not a personal script. The reading is detailed (the manifesto's chain of equivalences, the litany of *nada*, the self-cannibal turn to the market, and the deliberate contrast with Oswald de Andrade, brought in from outside Picabia's text). Per-language PDFs (two-page script + a closing questions sheet) and a Print button.
 - `compartir/` : a QR page for sharing the piece
@@ -16,7 +16,7 @@ All four pages are trilingual (Spanish, French, English); the language choice is
 
 ## Built with
 
-Plain HTML, CSS and vanilla JavaScript. No build step, no dependencies. Type is Anton, Spectral and Space Mono (Google Fonts); the scroll "consumption" effect uses IntersectionObserver, and the QR is inlined as SVG so the share page works offline. The guion PDFs are rendered from the live page with headless Chromium (`--no-pdf-header-footer`, one per language).
+Plain HTML, CSS and vanilla JavaScript. No build step, no dependencies. Type is Anton, Spectral and Space Mono (Google Fonts); the scroll "consumption" effect uses IntersectionObserver, the bite sounds are synthesized live with the Web Audio API (no audio file), and the QR is inlined as SVG so the share page works offline. The guion PDFs are rendered from the live page with headless Chromium (`--no-pdf-header-footer`, one per language).
 
 Live at https://polivoxia.ca/manifiesto_canibal/
 
